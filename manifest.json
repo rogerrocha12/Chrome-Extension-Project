@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Cat to Angry Cat GIF",
+  "version": "1.0",
+  "description": "Replaces the word 'cat' with an embedded img showing an angry cat GIF.",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "script.js"
+      ],
+      "css": [
+        "styles.css"
+      ] 
+    }
+  ] 
+}
